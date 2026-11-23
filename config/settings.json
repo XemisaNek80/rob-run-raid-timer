@@ -1,0 +1,23 @@
+{
+  "module": "rob-run-raid-timer",
+  "version": "0.1.0",
+  "runtime": {
+    "threads": 4,
+    "verbose": false,
+    "hot_reload": true
+  },
+  "modules": {
+    "timer": {
+      "enabled": true
+    },
+    "reminders": {
+      "enabled": true
+    },
+    "checklist": {
+      "enabled": true
+    },
+    "cli": {
+      "enabled": true
+    }
+  }
+}
